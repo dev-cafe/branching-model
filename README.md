@@ -1,6 +1,6 @@
 # branching-model-discussion
 
-![Branching model](https://cdn.rawgit.com/robertodr/branching-model-discussion/f773cbda/images/branching_model.png)
+![Branching model](https://cdn.rawgit.com/robertodr/branching-model-discussion/18cf69b4/images/branching_model.png)
 
 This branching model assumes:
 
