@@ -3,7 +3,7 @@
 
 ## Branching Model v1
 
-![Branching model v1](https://cdn.rawgit.com/robertodr/branching-model-discussion/18cf69b4/images/branching_model.png)
+![Branching model v1](https://cdn.rawgit.com/robertodr/branching-model-discussion/0bb91fa7/images/branching_model-v1.png)
 
 This branching model assumes:
 
@@ -43,7 +43,7 @@ features is enforced.
 
 ## Branching Model v2
 
-![Branching model v2](https://cdn.rawgit.com/robertodr/branching-model-discussion/18cf69b4/images/branching_model.png)
+![Branching model v2](https://cdn.rawgit.com/robertodr/branching-model-discussion/0bb91fa7/images/branching_model-v2.png)
 
 This branching model assumes:
 
