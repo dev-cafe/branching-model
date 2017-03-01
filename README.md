@@ -37,7 +37,11 @@ features is enforced.
 
 1. PRs from any fork should __never__ start from the branch to which they are
    directed in the upstream repository.
-  This is why this is a [good idea](http://blog.jasonmeridth.com/posts/do-not-issue-pull-requests-from-your-master-branch/)
+   This is why this is a [good idea](http://blog.jasonmeridth.com/posts/do-not-issue-pull-requests-from-your-master-branch/).
+   Example: to submit a PR towards `release/1.0.Z` fixing issue 137,
+   fork the repository, and in the fork
+   create a branch `release/1.0.Z-issue-137` from `release/1.0.Z`
+   and submit PR towards the upstream `release/1.0.Z`.
 2. **Bugfix PRs** are directed towards the relevant `release/X.Y.Z` upstream branch.
 3. **Feature PRs** are directed towards the `master` upstream branch.
 
@@ -75,7 +79,11 @@ features is enforced.
 
 1. PRs from any fork should __never__ start from the branch to which they are
    directed in the upstream repository.
-  This is why this is a [good idea](http://blog.jasonmeridth.com/posts/do-not-issue-pull-requests-from-your-master-branch/).
+   This is why this is a [good idea](http://blog.jasonmeridth.com/posts/do-not-issue-pull-requests-from-your-master-branch/).
+   Example: to submit a PR towards `release/1.0.Z` fixing issue 137,
+   fork the repository, and in the fork
+   create a branch `release/1.0.Z-issue-137` from `release/1.0.Z`
+   and submit PR towards the upstream `release/1.0.Z`.
 2. **Bugfix PRs** are directed towards the relevant `release/X.Y.Z` upstream branch.
 3. **API-breaking feature PRs** are directed towards the `master` upstream branch.
 4. **API-preserving feature PRs** can be directed either to `master` or to the corresponding release branch and then ported to `master`.
