@@ -55,10 +55,8 @@ features is enforced.
 
 ### Branch semantics
 
-3. `master` gathers work towards the next **minor** _and/or_ **major** release.
-1. `release` branches are minted from `master` when a new **major** release
-   _or_ when a new **minor** release in a series are ready.
-   For example, 1.0.0 and 1.1.0 branch off of `master`.
+0. `master` gathers work towards the next **major** release.
+1. `release` branches are minted from `master` when a new **major** release is ready.
 2. `release/X.Y.Z` branches collect all **patch** releases to a given X.Y
    release series.
 3. In each **minor** series, i.e. `release/1.0.Z`, **no new features** are
