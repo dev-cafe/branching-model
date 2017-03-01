@@ -75,8 +75,9 @@ features is enforced.
 
 1. PRs from any fork should __never__ start from the branch to which they are
    directed in the upstream repository.
-  This is why this is a [good idea](http://blog.jasonmeridth.com/posts/do-not-issue-pull-requests-from-your-master-branch/)
+  This is why this is a [good idea](http://blog.jasonmeridth.com/posts/do-not-issue-pull-requests-from-your-master-branch/).
 2. **Bugfix PRs** are directed towards the relevant `release/X.Y.Z` upstream branch.
-3. **Feature PRs** are directed towards the `master` upstream branch.
+3. **API-breaking feature PRs** are directed towards the `master` upstream branch.
+4. **API-preserving feature PRs** are directed towards the corresponding major release branch if it exist, or to `master` if a corresponding major release branch does not exist yet.
 
 _Images served thanks to [rawgit.com](https://rawgit.com)_
