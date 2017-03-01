@@ -78,6 +78,6 @@ features is enforced.
   This is why this is a [good idea](http://blog.jasonmeridth.com/posts/do-not-issue-pull-requests-from-your-master-branch/).
 2. **Bugfix PRs** are directed towards the relevant `release/X.Y.Z` upstream branch.
 3. **API-breaking feature PRs** are directed towards the `master` upstream branch.
-4. **API-preserving feature PRs** are directed towards the corresponding major release branch if it exist, or to `master` if a corresponding major release branch does not exist yet.
+4. **API-preserving feature PRs** can be directed either to `master` or to the corresponding release branch and then ported to `master`.
 
 _Images served thanks to [rawgit.com](https://rawgit.com)_
