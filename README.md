@@ -1,6 +1,6 @@
 # Semantic branching model
 
-![Branching model](https://cdn.rawgit.com/dev-cafe/branching-model/54f2f2aa2cf7a0bece/images/branching_model.png)
+![Branching model](https://github.com/dev-cafe/branching-model/raw/master/images/branching_model.png "Branching model")
 
 
 ## Assumptions for a project using the semantic branching model
@@ -60,5 +60,3 @@ Example:
 - **API-breaking feature PRs** are directed towards the `master` upstream branch.
 - **API-preserving feature PRs** can be directed either to `master` (then they are scheduled for the next major release)
   or to the corresponding release branch (then they are scheduled for the next minor release) and then ported to `master`.
-
-_Images served thanks to [rawgit.com](https://rawgit.com)_.
