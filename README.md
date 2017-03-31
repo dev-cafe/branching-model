@@ -47,6 +47,7 @@ features is enforced.
    and submit PR towards the upstream `release/1.0.Z`.
 2. **Bugfix PRs** are directed towards the relevant `release/X.Y.Z` upstream branch.
 3. **API-breaking feature PRs** are directed towards the `master` upstream branch.
-4. **API-preserving feature PRs** can be directed either to `master` or to the corresponding release branch and then ported to `master`.
+4. **API-preserving feature PRs** can be directed either to `master` (then they are scheduled for the next major release)
+   or to the corresponding release branch (then they are scheduled for the next minor release) and then ported to `master`.
 
 _Images served thanks to [rawgit.com](https://rawgit.com)_.
