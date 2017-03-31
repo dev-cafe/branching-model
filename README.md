@@ -47,7 +47,7 @@ features is enforced.
 
 ## Branching Model v2
 
-![Branching model v2](https://cdn.rawgit.com/robertodr/branching-model-discussion/0bb91fa7/images/branching_model-v2.png)
+![Branching model v2](https://cdn.rawgit.com/dev-cafe/branching-model/0c058d3128f54968/images/branching_model-v2.png)
 
 This branching model assumes:
 
