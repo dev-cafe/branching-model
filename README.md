@@ -59,18 +59,18 @@ features is enforced.
 
 ### Branch semantics
 
-0. `master` gathers work towards the next **major** release.
-1. `release` branches are minted from `master` when a new **major** release is ready.
-2. `release/X.Y.Z` branches collect all **patch** releases to a given X.Y
+1. `master` gathers work towards the next **major** release.
+2. `release` branches are minted from `master` when a new **major** release is ready.
+3. `release/X.Y.Z` branches collect all **patch** releases to a given X.Y
    release series.
-3. In each **minor** series, i.e. `release/1.0.Z`, **no new features** are
+4. In each **minor** series, i.e. `release/1.0.Z`, **no new features** are
    added, only bugfixes. Each new bugfix requires a bump in **patch** number,
    signalled by _tagging_
-4. Important bugfixes in a given `release/X.Y.Z` can, if necessary, be ported
+5. Important bugfixes in a given `release/X.Y.Z` can, if necessary, be ported
    to `master` by _cherry picking_ (the porting needs clarification)
-5. Important bugfixes in `master` can, if necessary, be ported to
+6. Important bugfixes in `master` can, if necessary, be ported to
    `release/X.Y.Z` by _cherry picking_ (the porting needs clarification)
-6. When a new **major** and/or **minor** release is minted, i.e. the
+7. When a new **major** and/or **minor** release is minted, i.e. the
    corresponding branch is created, support for previous versions can be
    dropped. Bugfixes to previous versions are only released if a suitable PR
    addresses them.
