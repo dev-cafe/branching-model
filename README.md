@@ -3,7 +3,7 @@
 
 ## Branching model
 
-![Branching model](https://cdn.rawgit.com/dev-cafe/branching-model/0c058d3128f54968/images/branching_model.png)
+![Branching model](https://cdn.rawgit.com/dev-cafe/branching-model/54f2f2aa2cf7a0bece/images/branching_model.png)
 
 This branching model assumes:
 
