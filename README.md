@@ -1,9 +1,10 @@
-# branching-model-discussion
-
-
-## Branching model
+# Branching model
 
 ![Branching model](https://cdn.rawgit.com/dev-cafe/branching-model/54f2f2aa2cf7a0bece/images/branching_model.png)
+
+
+
+## Assumptions
 
 This branching model assumes:
 
@@ -14,7 +15,7 @@ This branching model can ensure that the proper definition of bugfixes and new
 features is enforced.
 
 
-### Branch semantics
+## Branch semantics
 
 1. `master` gathers work towards the next **major** release.
 2. `release` branches are minted from `master` when a new **major** release is ready.
@@ -33,7 +34,7 @@ features is enforced.
    addresses them.
 
 
-### Pull requests (PRs)
+## Pull requests (PRs)
 
 1. PRs from any fork should __never__ start from the branch to which they are
    directed in the upstream repository.
