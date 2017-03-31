@@ -7,7 +7,7 @@
 
 This branching model assumes:
 
-* that the project uses [semantic versioning](semver.org)
+* that the project uses [semantic versioning](http://semver.org)
 * that the project strictly adheres to a fork-and-pull-request workflow
 
 This branching model can ensure that the proper definition of bugfixes and new
@@ -51,7 +51,7 @@ features is enforced.
 
 This branching model assumes:
 
-* that the project uses [semantic versioning](semver.org)
+* that the project uses [semantic versioning](http://semver.org)
 * that the project strictly adheres to a fork-and-pull-request workflow
 
 This branching model can ensure that the proper definition of bugfixes and new
