@@ -3,13 +3,15 @@
 ![Branching model](https://cdn.rawgit.com/dev-cafe/branching-model/54f2f2aa2cf7a0bece/images/branching_model.png)
 
 
-
 ## Assumptions
 
 This branching model assumes:
 
 * that the project uses [semantic versioning](http://semver.org)
 * that the project strictly adheres to a fork-and-pull-request (or fork-and-merge-request) workflow
+
+
+## Goals
 
 This branching model can ensure that the proper definition of bugfixes and new
 features is enforced.
