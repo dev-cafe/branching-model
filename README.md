@@ -17,13 +17,17 @@
 
 ## Branch semantics
 
-1. `master` gathers work towards the next **major** release.
-2. `release` branches are minted from `master` when a new **major** release is ready.
-3. `release/X.Y.Z` branches collect all **patch** releases to a given X.Y
-   release series.
-4. In each **minor** series, i.e. `release/1.0.Z`, **no new features** are
-   added, only bugfixes. Each new bugfix requires a bump in **patch** number,
-   signalled by _tagging_
+1. `master` collects changes towards the next **major** release.
+3. `release/X.Y` branches collect changes towards the next **minor** release.
+3. `release/X.Y.Z` branches collect changes towards the next **patch** release.
+4. New features are directed either towards `master` or towards `release/X.Y` branches.
+5. Patch release branches `release/X.Y.Z` never receive new features, they only receive bugfixes.
+
+
+## Release preparation (needs clarification)
+
+1. `release` branches are minted from `master` when a new **major** release is ready.
+2. Each new bugfix requires a bump in **patch** number, signalled by _tagging_.
 
 
 ## Porting of changes
