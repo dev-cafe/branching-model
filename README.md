@@ -88,4 +88,4 @@ features is enforced.
 3. **API-breaking feature PRs** are directed towards the `master` upstream branch.
 4. **API-preserving feature PRs** can be directed either to `master` or to the corresponding release branch and then ported to `master`.
 
-_Images served thanks to [rawgit.com](https://rawgit.com)_
+_Images served thanks to [rawgit.com](https://rawgit.com)_.
