@@ -24,14 +24,22 @@
 4. In each **minor** series, i.e. `release/1.0.Z`, **no new features** are
    added, only bugfixes. Each new bugfix requires a bump in **patch** number,
    signalled by _tagging_
-5. Important bugfixes in a given `release/X.Y.Z` can, if necessary, be ported
-   to `master` by _cherry picking_ (the porting needs clarification)
-6. Important bugfixes in `master` can, if necessary, be ported to
-   `release/X.Y.Z` by _cherry picking_ (the porting needs clarification)
-7. When a new **major** and/or **minor** release is minted, i.e. the
-   corresponding branch is created, support for previous versions can be
-   dropped. Bugfixes to previous versions are only released if a suitable PR
-   addresses them.
+
+
+## Porting of changes
+
+- Important bugfixes in a given `release/X.Y.Z` can, if necessary, be ported
+  to `release/X.Y` and further to `master` by merging.
+- Important bugfixes in `master` can, if necessary, be ported to `release/X.Y` and
+  `release/X.Y.Z` by _cherry picking_.
+
+
+## Lifetime of branches
+
+When a new **major** and/or **minor** release branch is created,
+support for previous versions can be
+dropped. Bugfixes to previous versions are only released if a suitable PR
+addresses them.
 
 
 ## Source of pull requests
