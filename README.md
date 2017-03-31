@@ -69,6 +69,6 @@ Example:
 ## Target of pull requests
 
 - **Bugfix PRs** are directed towards the relevant `release/X.Y.Z` upstream branch.
-- **API-breaking feature PRs** are directed towards the `master` upstream branch.
 - **API-preserving feature PRs** can be directed either to `master` (then they are scheduled for the next major release)
   or to the corresponding release branch (then they are scheduled for the next minor release) and then ported to `master`.
+- **API-breaking feature PRs** are directed towards the `master` upstream branch.
