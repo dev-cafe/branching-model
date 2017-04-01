@@ -26,12 +26,15 @@ permalink: /
 
 ## Why not just using [A successful Git branching model](http://nvie.com/posts/a-successful-git-branching-model/)?
 
-- In the [Vincent Driessen](http://nvie.com/posts/a-successful-git-branching-model/) model
+- In the [Vincent Driessen model](http://nvie.com/posts/a-successful-git-branching-model/)
   every commit on master is a new release by definition but publishing patches to
   past releases leads to release commits which are not on master.
-- The [Vincent Driessen](http://nvie.com/posts/a-successful-git-branching-model/) model
-  offers no protocol for discriminating feature pull requests (PRs) based on their target major or minor version. In other words, it may
-  be difficult to accept an API-preserving feature PR after having accepted an API-breaking feature PR.
+- The [Vincent Driessen model](http://nvie.com/posts/a-successful-git-branching-model/) model
+  offers no protocol for discriminating feature pull requests (PRs) based on
+  their target major or minor version. For maintainers it may therefore be
+  difficult to accept an API-preserving feature PR after having accepted an
+  API-breaking feature PR. For contributors it may be difficult to communicate
+  the release visibility intent of a patch.
 
 
 ## Branch semantics
