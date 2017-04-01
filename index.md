@@ -48,8 +48,8 @@ permalink: /
 
 ## Lifetime of branches
 
-- When a new **major** and/or **minor** release branch is created, support for
-  previous versions can be dropped.
+- When a new release branch is created, support for previous versions can be
+  dropped.
 - Bugfixes to previous versions are only released if a suitable PR addresses
   them.
 
@@ -62,18 +62,18 @@ a release candidate, and tagging a release.
 
 ### Feature freeze and branch creation
 
-Feature freeze is the moment when a new release branch is created, either a major release
-branch `release/X.Y` or a minor release branch `release/X.Y.Z`. The creation of a release
-branch may be delayed up to the moment until the root branch receives changesets
-towards the next major or minor release.
+Feature freeze is the moment when a new release branch is created, either
+`release/X.Y` is created from master, or `release/X.Y.Z` is created from
+`release/X.Y`. The creation of a release branch may be delayed up to the
+moment until the root branch receives changesets towards the next major or
+minor release.
 
 
 ### Converging a release candidate
 
-Often some work needs to be done between a feature freeze and the actual
-release: this work consists of steps from release alpha, beta, towards a
-release candidate and contains bugfixes, cosmetics, documentation, together
-with testing.
+Often some work needs to be done between a feature freeze and arriving at the
+release commit: this work typically consists of bugfixes, cosmetics, documentation,
+together with testing.
 
 
 ### Tagging a release
