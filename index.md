@@ -18,7 +18,10 @@ permalink: /
 ## Goals
 
 - Separate development towards major, minor, or patch release.
-- Make it clear and simple to decide whether patches affect the next major, minor, or patch version.
+- Communicate to contributors the meaning and effect of each branch.
+- Communicate to maintainers the release visibility intent of each patch.
+- Make it clear and simple to decide both for contributors and maintainers
+  whether patches affect the next major, minor, or patch version.
 
 
 ## Why not just using [A successful Git branching model](http://nvie.com/posts/a-successful-git-branching-model/)?
