@@ -56,8 +56,8 @@ permalink: /
 
 ## Release preparation
 
-The release process consists of the following steps: feature freeze, work
-towards a release candidate, and tagging a release.
+The release process consists of the following steps: feature freeze, converging
+a release candidate, and tagging a release.
 
 
 ### Feature freeze and branch creation
@@ -68,7 +68,7 @@ branch may be delayed up to the moment until the root branch receives changesets
 towards the next major or minor release.
 
 
-### Work towards a release candidate
+### Converging a release candidate
 
 Often some work needs to be done between a feature freeze and the actual
 release: this work consists of steps from release alpha, beta, towards a
