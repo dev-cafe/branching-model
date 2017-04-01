@@ -46,6 +46,14 @@ permalink: /
 5. Patch release branches `release/X.Y.Z` never receive new features, they only receive bugfixes.
 
 
+## Lifetime of branches
+
+- When a new **major** and/or **minor** release branch is created, support for
+  previous versions can be dropped.
+- Bugfixes to previous versions are only released if a suitable PR addresses
+  them.
+
+
 ## Release preparation
 
 The release process consists of the following steps: feature freeze, work
@@ -81,14 +89,6 @@ Each new bugfix requires a bump in the **patch** number, signalled by creating a
   to `release/X.Y` and further to `master` by merging.
 - Important bugfixes in `master` can, if necessary, be ported to `release/X.Y` and
   `release/X.Y.Z` by _cherry picking_.
-
-
-## Lifetime of branches
-
-When a new **major** and/or **minor** release branch is created,
-support for previous versions can be
-dropped. Bugfixes to previous versions are only released if a suitable PR
-addresses them.
 
 
 ## Source of pull requests
