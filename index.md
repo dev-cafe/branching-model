@@ -121,3 +121,34 @@ Example:
 - **API-preserving feature PRs** can be directed either to `master` (then they are scheduled for the next major release)
   or to the corresponding release branch (then they are scheduled for the next minor release) and then ported to `master`.
 - **API-breaking feature PRs** are directed towards the `master` upstream branch.
+
+
+## Frequently-asked questions
+
+### Do I need release branches at all? Can't we just tag releases on master?
+
+If you never want to release patches to released versions, tagging versions on
+`master` is probably sufficient.  The moment your project receives patches to
+released versions, you need to create branches.
+
+
+### My project does not use [semantic versioning](http://semver.org), does this model still make sense?
+
+This model probably still make sense but you probably do not need two levels of release branches
+but probably require only one supporing each release.
+
+
+### My project does not use fork-and-pull-request workflow, does this model still make sense?
+
+You can employ this model also within a single repository. For this
+write-protect `master` and release branches and employ code review before
+accepting merges from feature or bugfix branches towards either `master` or
+release branches.
+
+
+### Will my project not end up with many branches?
+
+Possibly - but branches are cheap. If you do not like to have a branch for each
+single release, you can delay the creation of a corresponding release branch
+until the moment when a past release is about to receive a patch which you
+would like to isolate from other changes which have the past release as parent.
