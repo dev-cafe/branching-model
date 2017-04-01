@@ -80,11 +80,14 @@ together with testing.
 
 Tagging a specific commit with a release version creates the actual release.
 We recommend to use annotated tags because they contain the author of the tag.
-Each new bugfix requires a bump in the **patch** number, signalled by creating a new tag.
 
 
-## Porting of changes
+## Bugfixes
 
+- Bugfixes can be directed either towards `release/X.Y.Z`, or `release/X.Y`, or
+  `master`, depending on the intent.
+- Bugfixes directed towards `release/X.Y.Z` require to bump the patch number,
+  signalled by creating a new tag.
 - Important bugfixes in a given `release/X.Y.Z` can, if necessary, be ported
   to `release/X.Y` and further to `master` by merging.
 - Important bugfixes in `master` can, if necessary, be ported to `release/X.Y` and
