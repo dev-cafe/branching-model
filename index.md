@@ -134,8 +134,8 @@ released versions, you need to create branches.
 
 ### My project does not use [semantic versioning](http://semver.org), does this model still make sense?
 
-This model probably still make sense but you probably do not need two levels of release branches
-but probably require only one supporing each release.
+This model probably still makes sense but you probably do not need two levels of release branches
+but probably require only one supporting each release.
 
 
 ### My project does not use fork-and-pull-request workflow, does this model still make sense?
