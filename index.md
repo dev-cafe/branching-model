@@ -6,7 +6,7 @@ permalink: /
 
 # Semantic branching model
 
-<img src="img/branching_model.svg" alt="Branching model" width="150%">
+<img src="img/branching-model.svg" alt="Branching model" width="150%">
 
 
 ## Assumptions for a project using the semantic branching model
