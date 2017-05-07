@@ -15,6 +15,12 @@ Made available under the
 [Creative Commons Attribution-ShareAlike license](https://creativecommons.org/licenses/by-sa/4.0/).
 
 
+## Authors
+
+- [Roberto Di Remigio](https://totaltrash.xyz)
+- [Radovan Bast](http://bast.fr)
+
+
 ## Assumptions for a project using the semantic branching model
 
 * The project uses [semantic versioning](http://semver.org).
