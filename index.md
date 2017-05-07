@@ -6,6 +6,8 @@ permalink: /
 
 # Semantic branching model
 
+## Version: 1.0.0-alpha-1
+
 <img src="img/branching-model.svg" alt="Branching model" width="150%">
 
 
