@@ -9,6 +9,12 @@ permalink: /
 <img src="img/branching-model.svg" alt="Branching model" width="150%">
 
 
+## License
+
+Made available under the
+[Creative Commons Attribution-ShareAlike license](https://creativecommons.org/licenses/by-sa/4.0/).
+
+
 ## Assumptions for a project using the semantic branching model
 
 * The project uses [semantic versioning](http://semver.org).
