@@ -17,18 +17,18 @@ permalink: /
 
 ## Goals
 
-- Separate development towards major, minor, or patch release.
+- Separate development lines towards major, minor, or patch release.
 - Communicate to contributors the meaning and effect of each branch.
-- Communicate to maintainers the release visibility intent of each patch.
+- Communicate to maintainers the release visibility intent for each patch.
 - Make it clear and simple to decide both for contributors and maintainers
   whether patches affect the next major, minor, or patch version.
 
 
-## Why not just using [A successful Git branching model](http://nvie.com/posts/a-successful-git-branching-model/)?
+## Why not just using "[A successful Git branching model](http://nvie.com/posts/a-successful-git-branching-model/)"?
 
 - In the [Vincent Driessen model](http://nvie.com/posts/a-successful-git-branching-model/)
-  every commit on master is a new release by definition but publishing patches to
-  past releases leads to release commits which are not on master.
+  every commit on the `master` branch is a new release by definition but publishing patches to
+  past releases leads to release commits which are not on the `master` branch.
 - The [Vincent Driessen model](http://nvie.com/posts/a-successful-git-branching-model/) model
   offers no protocol for discriminating feature pull requests (PRs) based on
   their target major or minor version. For maintainers it may therefore be
@@ -89,14 +89,14 @@ We recommend to use annotated tags because they contain the author of the tag.
 - Bugfixes directed towards `release/X.Y.Z` require to bump the patch number,
   signalled by creating a new tag.
 - Important bugfixes in a given `release/X.Y.Z` can, if necessary, be ported
-  to `release/X.Y` and further to `master` by merging.
+  to `release/X.Y` and further to `master` by _merging_.
 - Important bugfixes in `master` can, if necessary, be ported to `release/X.Y` and
   `release/X.Y.Z` by _cherry picking_.
 
 
 ## Source branch
 
-A pull request (PR) PRs from any fork should never start from the branch to which they are
+A PR from any fork should never start from the branch to which they are
 directed in the upstream repository.
 
 Explanation:
@@ -135,7 +135,7 @@ released versions, you need to create branches.
 ### My project does not use [semantic versioning](http://semver.org), does this model still make sense?
 
 This model probably still makes sense but you probably do not need two levels of release branches
-but probably require only one supporting each release.
+but probably require only one, supporting each release.
 
 
 ### My project does not use fork-and-pull-request workflow, does this model still make sense?
