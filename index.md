@@ -110,7 +110,7 @@ We recommend to use annotated tags because they contain the author of the tag.
 
 ## Source branch
 
-A PR from any fork should never start from the branch to which they are
+A PR from any fork should always start from the branch to which they are
 directed in the upstream repository.
 
 Explanation:
