@@ -110,8 +110,9 @@ We recommend to use annotated tags because they contain the author of the tag.
 
 ## Source branch
 
-A PR from any fork should always start from the branch to which they are
-directed in the upstream repository.
+When creating a new branch for a PR, it should always start off from the branch to which the change is
+directed. The naming of the new branch should follow standard feature/issue branch naming conventions, 
+i.e. the feature branch in the fork should _not_ be named identical to the target branch in the upstream repository (see [Do Not Issue Pull Requests From Your Master Branch](https://blog.jasonmeridth.com/posts/do-not-issue-pull-requests-from-your-master-branch/)).
 
 Explanation:
 
